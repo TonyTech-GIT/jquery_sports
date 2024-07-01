@@ -1,5 +1,65 @@
+:root {
+    --primary-color: #ddd;
+    --secondary-color: #ffff00;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+
+    font-family: 'poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+
+.max-container {
+    max-width: 1440px;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+
+/* MEDIA QUERIES..... */
+@media only screen and (min-width: 1440px) {
+    /* Large screens */
+}
+
+@media only screen and (min-width: 768px) {
+   /* Tablets screen sizes */
+}
+
+@media only screen and (min-width: 320px) {
+    /* Mobile screen sizes */
 }

@@ -5,9 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power-Tug</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/sections/header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="/js/script.js"></script>
+
+    <section class="header_container max-container flex padding relative">
+        <div class="header_container-logoImage">
+            <img src="/assets/icons/logoImage.png" alt="logo-icon">
+        </div>
+
+        <h1 class="header_container-text">Power-Tug</h1>
+
+        <nav>
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header_container-menuBtn">
+            <img src="/assets/icons/menu-btn.png" alt="menu-btn">
+        </div>
+
+        <div class="mobile_menu-container absolute">
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    
 </body>
 </html>
