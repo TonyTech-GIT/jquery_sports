@@ -1,0 +1,14 @@
+@import '/styles/styles.css';
+
+.about_container {
+    padding: 3rem 6rem;
+}
+
+.about_container-text h1 {
+    font-size: 5rem;
+
+    width: 60%;
+}
+.about_container-text h1 span {
+    color: var(--secondary-color);
+}
