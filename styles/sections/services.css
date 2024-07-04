@@ -58,13 +58,11 @@
     background-color: var(--black-color);
 
     width: 350px;
-    /* width: 300px; */
 
     border-radius: 10px;
   }
 
   .services_container-card .card-image {
     width: 350px;
-    /* width: 300px; */
   }
 }

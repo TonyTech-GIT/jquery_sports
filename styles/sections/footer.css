@@ -1,0 +1,25 @@
+@import "/styles/styles.css";
+
+.footer_container {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.footer_container-logoImage {
+  width: 110px;
+}
+.footer_container-logoImage img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  .footer_container {
+    flex-direction: row;
+  }
+}
