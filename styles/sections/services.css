@@ -8,6 +8,8 @@
   align-items: center;
 
   gap: 3rem;
+
+  z-index: -20;
 }
 
 .services_container-card {

@@ -6,6 +6,8 @@
   align-items: center;
 
   flex-direction: column;
+
+  z-index: -20;
 }
 
 .about_container-text {

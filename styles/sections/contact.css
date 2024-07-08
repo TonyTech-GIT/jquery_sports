@@ -5,6 +5,8 @@
   /* gap: 3rem; */
 
   flex-direction: column-reverse;
+
+  z-index: -20;
 }
 
 .contact_container-form {
