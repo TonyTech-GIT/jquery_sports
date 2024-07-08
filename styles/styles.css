@@ -62,6 +62,29 @@ li {
   display: none;
 }
 
+/* Styles for animation... */
+.about_container,
+.cardOne,
+.cardTwo,
+.cardThree,
+.contact_container {
+  opacity: 0;
+}
+.about_container.animate__animated,
+.cardOne.animate__animated,
+.cardTwo.animate__animated,
+.cardThree.animate__animated,
+.contact_container.animate__animated {
+  opacity: 1;
+}
+
+.cardTwo {
+  animation-delay: 0.15s;
+}
+.cardThree {
+  animation-delay: 0.3s;
+}
+
 /* MEDIA QUERIES..... */
 @media only screen and (min-width: 1440px) {
   /* Large screens */
